@@ -1,0 +1,41 @@
+/*Selector por etiqueta*/
+h3 {
+    color: blue;
+}
+
+.titulo {
+    color: red;
+}
+/*Selector por clase*/
+.titulo2{
+    color: pink;
+}
+
+/*Selector por id*/
+#elmejortitulo{
+    color: springgreen;
+    background-color: red;
+}
+
+/*Unidad de medida absoluta*/
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+/* Unidad de medida relativa */
+.cuadrado2{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(213,12,0, 0.2)
+}
+
+.rick{
+    width: 400px;
+    height: 400px;
+    background-image: url("./imagenes/rick-and-morty-web.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
