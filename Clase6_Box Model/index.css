@@ -1,0 +1,14 @@
+.parrafo1{
+    margin: 10px 50px 80px 40px;
+    border: 10px solid red;
+    padding: 40px;
+    background-color: aqua;
+}
+
+.parrafo2{
+    width: 200px;
+    height: auto;
+    background-color: blue;
+    overflow: auto;
+
+}

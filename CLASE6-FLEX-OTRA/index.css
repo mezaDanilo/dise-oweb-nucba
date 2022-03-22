@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0, 1) 0%,
+            rgb(37, 89, 79, 1) 52%, rgb(2, 8, 0, 1)100%);
+}
+
+a{
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: rgba(0, 0,0, 0.2);
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+i{
+    font-size: 24px;
+}
+
+a:hover{
+    background: rgba(0, 0,0, 0.3);
+}
+
+.toggle{
+    display: none;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.navegacion ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+.navegacion li{
+    flex: 1;
+}
+
+.navegacion .social{
+    flex:1;
+}   
+
+
+section, footer{
+    text-align: center;
+    background-color: rgba(0,0,0, 0.2);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
